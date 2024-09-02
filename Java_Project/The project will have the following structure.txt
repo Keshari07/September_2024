@@ -1,0 +1,21 @@
+- src
+  - main
+    - java
+      - com.example.upload
+        - controller
+          - FileUploadServlet.java
+          - FileDownloadServlet.java
+          - FileViewServlet.java
+        - model
+          - FileData.java
+        - dao
+          - FileDAO.java
+    - resources
+    - webapp
+      - WEB-INF
+        - web.xml
+      - uploads
+      - views
+        - upload.jsp
+        - view.jsp
+- pom.xml (for Maven dependencies)

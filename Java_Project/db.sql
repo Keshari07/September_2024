@@ -1,0 +1,9 @@
+CREATE DATABASE filedb;
+
+CREATE TABLE files (
+    id SERIAL PRIMARY KEY,
+    filename VARCHAR(255) NOT NULL,
+    filetype VARCHAR(50) NOT NULL,
+    filedata BYTEA NOT NULL,
+    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
